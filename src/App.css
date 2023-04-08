@@ -1,0 +1,70 @@
+.App {
+
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("NFL_DRAFT.jpg");
+  
+}
+
+.auth-form-container {
+  display: flex;
+  flex-direction: column;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("raider.jpg");
+  background-color: rgb(173, 172, 172);
+}
+
+.login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+
+    
+  
+}
+
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 3px solid rgb(253, 252, 252);
+    margin: 0.5rem;
+    
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+  
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid rgb(5, 5, 5);
+}
+
+button {
+  border: none;
+  background-color: rgb(254, 252, 252);
+  border: 1px solid rgb(5, 5, 5);
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  
+}
+
+.link-btn {
+  background: none;
+  color: rgb(250, 248, 248);
+  text-decoration: underline;
+  border: 0px 
+}
